@@ -1,0 +1,97 @@
+.popup-opt {
+    background-size: 486px 250px;
+  color: white;
+  width: 486px;
+  height: 250px;
+  position: fixed;
+  bottom: 40px;
+  left: 50px;
+  z-index: 600;
+  text-align: center;
+  padding: 10px 30px 0 30px;
+}
+
+/* <Close button> */
+
+.close-btn-opt {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.close-btn-opt:hover {
+  opacity: 0.3;
+}
+
+.close-btn-opt:before,
+.close-btn-opt:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 20px;
+  width: 2px;
+  background-color: white;
+}
+
+.close-btn-opt:before {
+  transform: rotate(45deg);
+}
+
+.close-btn-opt:after {
+  transform: rotate(-45deg);
+}
+
+
+/* </Close button> */
+
+.arrow {
+  color:#03EADA;
+font-weight: 900;
+font-size: 1.6rem;
+}
+
+.popup-title-opt {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align:center;
+    padding-top: 4rem;
+}
+
+.button-opt {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.popup-text-opt {
+  color: #5d5d69;
+}
+
+/* <Background colors> */
+
+.black {
+background-image: url("https://cdn.optimizely.com/img/134769299/b5419d6691aa4b228368405727f210a1.png") ;
+}
+
+.blue {
+background-image: url("https://cdn.optimizely.com/img/134769299/5f6b84c2399e4244a97ea4c4ba192fd8.png") ;
+}
+
+.white {
+background-image: url("https://cdn.optimizely.com/img/134769299/6740e6dd28634273b294f685421ecaf1.png") ;
+}
+
+.white .button-opt {
+color: #121118 !important;
+}
+
+.white .popup-title-opt {
+color: #121118 !important;
+}

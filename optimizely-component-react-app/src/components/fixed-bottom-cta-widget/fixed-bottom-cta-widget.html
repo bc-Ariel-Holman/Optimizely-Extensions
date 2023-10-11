@@ -1,0 +1,22 @@
+<input type="hidden" id="colorOptId" name="colorOptId" value="{{ extension.color }}">
+<div id="optimizely-extension-{{ extension.$instance }}" class="fixed-bottom-cta">
+   <a id="fixed-toggle-btn"></a>
+   <div id="bar-version">
+     <div class="bar-cta-text"> <span> {{ extension.barText }} 
+       <a class="bar-cta-button" target= "{{extension.tabOption}}" href="{{extension.barLinkUrl}}"> {{extension.barLinkText}}
+       </a> </span>
+     </div>
+   </div>
+   <div class="modal-version">
+      <div class="grid-opt">
+         <div class="grid-container">
+            <h2 class="modal-bar-title"> {{ extension.modalTitle }} </h2>
+            <p claSS="modal-cta-text">{{ extension.modalText }} </p>
+            <a class="modal-button-opt" target= "{{extension.tabOption2}}" href="{{ extension.modalButtonUrl }}"> {{ extension.modalButtonText }} </a> 
+         </div>
+         <div>
+            <img class="modal-img" src="{{ extension.imageUrl }}" alt="Sample site on a laptop" />
+         </div>
+      </div>
+   </div>
+</div>

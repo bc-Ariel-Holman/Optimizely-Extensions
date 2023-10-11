@@ -1,0 +1,10 @@
+<div id="optimizely-extension-{{ extension.$instance }}" class="basic-popup-cta hide">
+    <div class="background-opt fadeIn"></div>
+    <input type="hidden" id="typeId" name="typeId" value="{{ extension.type }}"/>
+      <div class="popup-opt fadeIn" data-popupdelay="{{ extension.popup_delay_ms }}">
+          <div class="close-btn-opt"></div>
+          <div class="popup-title-opt" > {{ extension.title }}</div>
+          <br />
+          <a class="button popupBtn-opt" href="{{extension.cta_link}}" target="_blank">{{ extension.buttonText }}</a>
+      </div>
+  </div>

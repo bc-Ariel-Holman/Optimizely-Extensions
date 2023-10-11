@@ -1,0 +1,26 @@
+<div id="optimizely-extension-{{ extension.$instance }}" class="basic-image-popup-cta hide">
+    <div class="background-opt fadeIn"></div>
+    <input type="hidden" id="typeId" name="typeId" value="{{ extension.type }}"/>
+      <div class="popup-opt fadeIn block--pageSection background--bcBlack" data-popupdelay="{{ extension.popup_delay_ms }}">
+          <div class="close-btn-opt"></div>
+          <div class="container col-70-30">
+            <div class="cta-section col1">
+              <div class="popup-content">
+                <div class="title" > {{ extension.title }}</div>
+                <div class="text" > {{ extension.subtitle }}</div>
+                <div class="text" > {{ extension.text }}</div>
+                <a class="button--primary button popupBtn-opt" href="{{extension.cta_link}}" target="_blank">{{ extension.buttonText }}</a>
+                <a class="no-show-link"> Don’t show this message again. </a>
+              </div>
+            </div>
+            <div class="image-section col2">
+              <img class="image-container" src="{{ extension.imageUrl }}" alt="{{ extension.imageAltText }}"/>
+            </div>
+            </div>
+      </div>
+  </div>
+  
+  
+  <!--<div id="optimizely-extension-{{ extension.$instance }}" class="basic-popup-with-image-cta">
+    {{ extension.text }}
+  </div>-->

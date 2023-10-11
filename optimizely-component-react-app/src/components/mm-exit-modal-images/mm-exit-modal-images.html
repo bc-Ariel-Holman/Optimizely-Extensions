@@ -1,0 +1,21 @@
+<div id="optimizely-extension-{{ extension.$instance }}">
+    <div class="background-opt"></div>
+      <div class="overlay-{{ extension.backgroundColor }}" id="overlay"></div>
+      <div class="container-opt container-opt-{{ extension.backgroundColor }}" id="container-opt">
+          <a class="close-btn close-btn-{{ extension.backgroundColor }}" href="#"></a>
+          <div class="header-opt header-opt-{{ extension.backgroundColor }}">
+              <h4>
+                  {{ extension.header }}
+              </h4>
+          </div>
+          <div class="image-opt image-opt-{{ extension.image }}"></div>
+          <div class="button-opt">
+              <a
+                      class="button-{{ extension.buttonType }}"
+                      href="{{ extension.buttonLink }}">
+                  {{ extension.buttonText }}
+              </a>
+          </div>
+      </div>
+  </div>
+  

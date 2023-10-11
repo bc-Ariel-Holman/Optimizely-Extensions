@@ -1,0 +1,48 @@
+<input type="hidden" id="recBoxId" name="recBoxId" value="{{ extension.recBox }}"/>
+
+<div id="optimizely-extension-{{ extension.$instance }}" class="basic-popup-cta hide">
+  <div class="background-opt fadeIn"></div>  
+  <div class="popup-opt fadeIn">
+    <div class="close-btn-opt"></div>
+    
+    <div class="popup-title">
+      <h3> {{ extension.title }} </h3>
+      <p>{{ extension.subtitle_optional }}</p>
+      <div class="divider"></div>
+    </div>
+    
+    <div class="box-container">
+      
+      <div id="recBox-box1">
+        <div class="box1 box">
+          <div class="rec-box"> Recommended </div>
+          <a class="popupBtn-opt" href="{{extension.box1CtaLink}}" target="_blank">
+            <h6 class="box-title"> {{ extension.box1Title }} <span class="blue-arrow arrow-1"></span> </h6>
+            <p class="box-text"> {{ extension.box1Description }} </p>
+          </a>
+        </div>
+      </div>
+       
+      <div id="recBox-box2">
+        <div class="box2 box">
+          <div class="rec-box"> Recommended </div>
+          <a class="popupBtn-opt" href="{{extension.box2CtaLink}}" target="_blank">
+            <h6 class="box-title"> {{ extension.box2Title }} <span class="blue-arrow arrow-2"></span> </h6>
+            <p class="box-text"> {{ extension.box2Description }} </p>
+          </a>
+        </div>
+      </div>
+   
+      <div id="recBox-box3">
+        <div class="box3 box">
+          <div class="rec-box"> Recommended </div>
+          <a class="popupBtn-opt" href="{{extension.box3CtaLink}}" target="_blank">
+            <h6 class="box-title"> {{ extension.box3Title }} <span class="blue-arrow arrow-3"></span> </h6>
+            <p class="box-text"> {{ extension.box3Description }} </p>
+          </a>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>

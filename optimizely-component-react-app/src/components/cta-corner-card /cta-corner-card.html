@@ -1,0 +1,16 @@
+<input type="hidden" id="colorOptId" name="colorOptId" value="{{ extension.color }}">
+<div id="optimizely-extension-{{ extension.$instance }}" class="cta-corner-card">
+    <input type="hidden" id="typeId" name="typeId" value="{{ extension.type }}" />
+    <div class="background-opt"></div>
+    <div class="popup-opt">
+        <div class="close-btn-opt"></div>
+        <div class="grid-opt">
+            <div>
+                <div class="popup-title-opt">{{ extension.title }}</div>
+                <div>
+                    <a class="button-opt" href="{{extension.buttonLink}}">{{ extension.ctaButton }} <span class="arrow"> → </span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

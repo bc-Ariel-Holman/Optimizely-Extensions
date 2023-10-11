@@ -1,0 +1,162 @@
+.background-opt {
+    background-color: black;
+     width: 100%;
+     height: 100%;
+     color: black;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     z-index: 600;
+     display: block;
+     background: rgba(0, 0, 0, 0.55); 
+ }
+ 
+ .popup-opt-basic {
+     background-color: white;
+     width: 400px;
+     height: 220px;
+     color: black;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     margin-left: -200px; /* negative half of width above */
+     margin-top: -110px; /* negative half of height above */
+     text-align: center;
+     z-index: 900;
+     border-radius: 6px;
+     border: 1px solid black;
+     padding: 30px 40px;
+     display: none;
+ }
+ 
+ .close-btn-opt-basic {
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+     font-size: 1rem;
+ }
+ 
+ .popup-title-opt-basic {
+     font-size: 1.1rem;
+     margin-top: 10px;
+     font-weight: 500;
+     margin: 0 40px;
+ }
+ 
+ .popupBtn-opt-basic {
+     background-color: black;
+     color: white !important;
+     font-size: 0.7rem;
+     padding: 15px 30px !important;
+ }
+ 
+ .popupBtn-opt-basic:hover {
+     background-color: black;}
+ 
+ /* ######################################## */
+ /*                  Image                   */
+ /* ######################################## */
+ 
+ .popup-opt-image {
+     background-image: url("https://cdn.optimizely.com/img/134769299/65323ff009f84e848daddd971793ead7.jpg");
+       background-repeat: no-repeat; /* Do not repeat the image */
+     width: 600px;
+     height: 220px;
+     color: black;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     margin-left: -302px; /* negative half of width above */
+     margin-top: -110px; /* negative half of height above */
+     z-index: 900;
+     border-radius: 6px;
+     border: 1px solid black;
+     padding: 30px 260px 30px 40px;
+     display: none;
+     text-align: left;
+ }
+ 
+ .close-btn-opt-image {
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+     font-size: 1rem;
+     color: white;
+ }
+ 
+ .popup-title-opt-image {
+     font-size: 1.1rem;
+     margin-top: 10px;
+     font-weight: 500;
+     margin-right: 60px;
+     text-align: left;
+ }
+ 
+ .popupBtn-opt-image {
+     background-color: black;
+     color: white !important;
+     font-size: 0.7rem;
+     padding: 15px 30px !important;
+ }
+ 
+ .popupBtn-opt-image:hover {
+     background-color: grey;
+ }
+ 
+ /* ######################################## */
+ /*                Image V2                  */
+ /* ######################################## */
+ 
+ .popup-opt-image2 {
+     background-image: url("https://cdn.optimizely.com/img/134769299/7cf5843754aa415498fd3a65ab45ee5d.jpg");
+     width: 450px;
+     height: 472px;
+     color: black;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     margin-left: -225px; /* negative half of width above */
+     margin-top: -236px; /* negative half of height above */
+     text-align: center;
+     z-index: 900;
+     border-radius: 6px;
+     border: 1px solid black;
+     padding: 40px 70px;
+     display: none;
+ }
+ 
+ .close-btn-opt-image2 {
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+     font-size: 1rem;
+ }
+ 
+ .popup-title-opt-image2 {
+     font-size: 1.2rem;
+     margin-top: 10px;
+     font-weight: 500;
+     margin: 0 30px;
+ }
+ 
+ .popupBtn-opt-image2 {
+     margin-top: 200px;
+     background-color: #1d57f6;
+     color: white !important;
+     font-size: 0.7rem;
+     padding: 15px 30px !important;
+ }
+ 
+ .popupBtn-opt-image2:hover {
+     background-color: grey;
+ }
+ 
